@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springbooks:war">
+    <output-path>$PROJECT_DIR$/springbooks/springbooks/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springbooks</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springbooks-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springbooks:war exploded" />
+    </root>
+  </artifact>
+</component>
